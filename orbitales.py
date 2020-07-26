@@ -55,15 +55,15 @@ Phi,Theta = array(meshgrid(phi,theta))
 
 if m>0:
         
-    rho = pow(sqrt(2)*A*cos(m*Phi)*legendre_polinomio(l,m,cos(Theta)),2)
+    rho = pow(abs(sqrt(2)*A*cos(m*Phi)*legendre_polinomio(l,m,cos(Theta))),2)
         
 elif m < 0:
         
-    rho = pow(sqrt(2)*A*sin(abs(m)*Phi)*legendre_polinomio(l,abs(m),cos(Theta)),2)
+    rho = pow(abs(sqrt(2)*A*sin(abs(m)*Phi)*legendre_polinomio(l,abs(m),cos(Theta))),2)
         
 else:
         
-    rho = pow(A*legendre_polinomio(l,0,cos(Theta)),2)
+    rho = pow(abs(A*legendre_polinomio(l,0,cos(Theta))),2)
 
 x,y,z = esfericas2cartesianas(abs(rho),Theta,Phi)
 
