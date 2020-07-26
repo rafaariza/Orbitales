@@ -7,6 +7,6 @@ It is needed to have Numpy and Matplotlib installed.
 
 Run it and enter l and m quantum number:
 
-![](images/1.png)
+![](1.png)
 
-![](images/2.png)
+![](2.png)
