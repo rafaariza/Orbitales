@@ -34,7 +34,7 @@ def legendre_polinomio(l,m,x):
 
     return pmm1
 
-# Ya tenemos todas las funciones definidad. Let's code!
+# Ya tenemos todas las funciones definidas. Let's code!
     
 l = int(input('Número cuántico azimutal l: '))
 
